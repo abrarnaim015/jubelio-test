@@ -4,6 +4,10 @@
 
 - v14.19.2
 
+> Database URL
+
+- DATABASE_URL=postgres://{user}:{password}@{hostname}:{port}/{database-name}
+
 > 🚀 Start App
 
 ```
