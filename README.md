@@ -18,7 +18,7 @@ notes: make sure the Database has created
 
 - Woocommerce
 
-```json
+```js
 Get and Insert data to Database from API `WooCommerceRestApi`
 same think like `npm run seed` thets why seed is optional
 
@@ -144,7 +144,7 @@ Response:
 
 - Products
 
-```json
+```js
 Get All Products
 method: "GET",
 path: "{{URL}/",
@@ -178,7 +178,7 @@ Response:
 }
 ```
 
-```json
+```js
 Crate Product
 method: "POST",
 path: "{{URL}}/",
@@ -210,7 +210,7 @@ Response:
 }
 ```
 
-```json
+```js
 Get Product By Id
 method: "GET",
 path: "{{URL}}/{id}",
@@ -232,7 +232,7 @@ Response:
 }
 ```
 
-```json
+```js
 Update Product By Id
 method: "PATCH",
 path: "{{URL}}/{id}",
@@ -263,7 +263,7 @@ Response:
 }
 ```
 
-```json
+```js
 Delete Product By Id
 method: "DELETE",
 path: "{{URL}}/{id}",
@@ -277,7 +277,7 @@ Response:
 
 - Transaction
 
-```json
+```js
 Create Transaction
 method: "POST",
 path: "{{URL}}/transaction",
@@ -303,7 +303,7 @@ Response:
 }
 ```
 
-```json
+```js
 Get All Transaction
 method: "GET",
 path: "{{URL}}/transaction",
@@ -335,7 +335,7 @@ Response:
 }
 ```
 
-```json
+```js
 Get Transaction By Id
 method: "GET",
 path: "{{URl}}/transaction/{id}",
@@ -355,7 +355,7 @@ Response:
 }
 ```
 
-```json
+```js
 Update Transaction By Id
 method: "PATCH",
 path: "{{URL}}/transaction/{id}",
@@ -381,7 +381,7 @@ Response:
 }
 ```
 
-```json
+```js
 Delete Transaction By Id
 method: "DELETE",
 path: "{{URL}}/transaction/{id}",
