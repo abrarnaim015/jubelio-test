@@ -15,6 +15,10 @@
 - npm run migrate
 - npm run seed (optional)
 
+- npm run dev
+or
+- npm run start
+
 notes: make sure the Database has created
 ```
 
